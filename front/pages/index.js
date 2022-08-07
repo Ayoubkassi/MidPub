@@ -1,5 +1,7 @@
 import { Main , Navbar , Items , Logo , Lien , Button , Title } from '../styles/HomePage.styles';
 import Footer from '../components/Footer/Footer.component';
+import CardImage from '../components/CardImage/CardImage.component';
+import CardStep from '../components/CardStep/CardStep.component';
 import Head from 'next/head';
 
 
@@ -23,6 +25,9 @@ export default function Home() {
           </Items>
         </Navbar>
         <Title>Where do you want to advertise?</Title>
+        <CardImage />
+        <Title>Advertise in 5 easy steps</Title>
+        <CardStep />
       </Main>
       <Footer />
     </>

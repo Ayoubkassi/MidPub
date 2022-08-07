@@ -48,4 +48,5 @@ export const Title = styled.h1`
   color : black ;
   text-align : center;
   margin-top : 55px;
+  margin-bottom : 22px;
 `;
