@@ -1,6 +1,7 @@
-import { Main } from '../styles/HomePage.styles';
+import { Main , Navbar , Items , Logo , Lien , Button , Title } from '../styles/HomePage.styles';
 import Footer from '../components/Footer/Footer.component';
 import Head from 'next/head';
+
 
 
 export default function Home() {
@@ -13,7 +14,15 @@ export default function Home() {
       </Head>
 
       <Main>
-        <h1>Hey Hey and welcome again</h1>
+        <Navbar>
+          <Logo>Name</Logo>
+          <Items>
+            <Lien href="/">EN</Lien>
+            <Lien href="/">Log in</Lien>
+            <Button>Sign up</Button>
+          </Items>
+        </Navbar>
+        <Title>Where do you want to advertise?</Title>
       </Main>
       <Footer />
     </>

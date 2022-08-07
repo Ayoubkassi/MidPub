@@ -68,7 +68,7 @@ export const ItemMedia = styled.div`
 `
 
 
-export const Item = styled(Link)`
+export const Item = styled.a`
   text-decoration : none;
   color : #cac8bb;
   cursor : pointer;
