@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import { Main , Container , ButtonWrapper , AdvButton , PubButton } from '../styles/SignupPage.styles';
+import { Main , Container , ButtonWrapper , AdvButton , PubButton , BlackArrow , WhiteArrow } from '../styles/SignupPage.styles';
 import { Navbar , Logo , Items , Lien , Button , Title} from '../styles/HomePage.styles';
 import Footer from '../components/Footer/Footer.component';
+import SignupForm from '../components/SignupForm/SignupForm.component';
 
 export default function Signup() {
   return(
@@ -23,9 +24,10 @@ export default function Signup() {
         <Container>
           <Title>Sign up</Title>
           <ButtonWrapper>
-            <AdvButton>Sign in as Advertiser</AdvButton>
-            <PubButton>Sign in as Publisher</PubButton>
+            <AdvButton><p>Sign in as Advertiser</p><WhiteArrow>&rarr;</WhiteArrow></AdvButton>
+            <PubButton><p>Sign in as Publisher</p><BlackArrow>&rarr;</BlackArrow></PubButton>
           </ButtonWrapper>
+          <SignupForm />
         </Container>
       </Main>
       <Footer />

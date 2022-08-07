@@ -28,7 +28,7 @@ export const CardPage = () => {
             <Image src={card.icon} alt={card.title} width={32} height={32} />
           </ImageWrapper>
           <h3>{card.title}</h3>
-          <h5>{card.body}</h5>
+          <h6>{card.body}</h6>
         </Card>
       ))
     }

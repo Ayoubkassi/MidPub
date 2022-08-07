@@ -6,15 +6,15 @@ export const Main = styled.div`
   max-width : 100vw;
   color : black;
   padding: 30px 120px;
-  height : 100vh;
+  min-height : 100vh;
 `
 
 export const Container = styled.div`
   max-width : 60vw;
   position : relative;
-  top : 15%;
+  top : 50%;
   left : 50%;
-  transform : translate(-50%,-50%);
+  transform : translate(-50%,-0%);
 `
 
 export const ButtonWrapper = styled.div`
@@ -30,8 +30,11 @@ export const AdvButton = styled.button`
     width : 50%;
     outline : none;
     border : none;
-    height : 80px;
+    height : 70px;
     cursor : pointer;
+    display : flex;
+    align-items : center;
+    padding : 20px ;
 `
 
 export const PubButton = styled.button`
@@ -41,6 +44,22 @@ export const PubButton = styled.button`
   width : 50%;
   outline : none;
   border : none;
-  height : 80px;
+  height : 70px;
   cursor : pointer;
+  display : flex;
+  align-items : center;
+  padding : 20px;
+`
+export const BlackArrow = styled.div`
+  font-weight : 900;
+  font-size : 50px;
+  color : black;
+  margin-bottom : 30px;
+`
+
+export  const WhiteArrow = styled.div`
+  font-weight : 900;
+  font-size : 50px;
+  color : white;
+  margin-bottom : 30px;
 `

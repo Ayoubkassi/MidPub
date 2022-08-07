@@ -12,6 +12,7 @@ export const Main = styled.div`
 export const Navbar = styled.div`
   display : flex ;
   justify-content : space-between;
+  align-items : center;
 `
 
 export const Logo = styled.h2`
@@ -22,6 +23,7 @@ export const Items = styled.div`
   display : flex;
   justify : content-space-between;
   align-self : flex-end;
+  align-items : center;
 `
 export const Lien = styled.a`
   color : black;
