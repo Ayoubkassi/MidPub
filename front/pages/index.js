@@ -2,6 +2,7 @@ import { Main , Navbar , Items , Logo , Lien , Button , Title } from '../styles/
 import Footer from '../components/Footer/Footer.component';
 import CardImage from '../components/CardImage/CardImage.component';
 import CardStep from '../components/CardStep/CardStep.component';
+import CardPage from '../components/CardPage/CardPage.component';
 import Head from 'next/head';
 
 
@@ -28,6 +29,7 @@ export default function Home() {
         <CardImage />
         <Title>Advertise in 5 easy steps</Title>
         <CardStep />
+        <CardPage />
       </Main>
       <Footer />
     </>
