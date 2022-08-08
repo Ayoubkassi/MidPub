@@ -1,10 +1,10 @@
 import { Label , InputBut , Wrap } from './Input.styles';
 
-const Input = ({label}) => {
+const Input = ({label , width , type}) => {
   return(
     <Wrap>
       <Label>{label}</Label>
-      <InputBut />
+      <InputBut width={width} type={type} />
     </Wrap>
   );
 }

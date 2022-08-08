@@ -2,20 +2,21 @@ import { Double , Main , Wraper , Href , Info , Button , ButContainer } from './
 import Input from '../Input/Input.component';
 
 const SignupForm = () => {
+  const sizeWidth = 300;
   return(
       <Main>
         <form>
           <Double>
-            <Input label="First Name" />
-            <Input label="Last Name" />
+            <Input label="First Name" width={sizeWidth} />
+            <Input label="Last Name" width={sizeWidth} />
           </Double>
           <Double>
-            <Input label="Email" />
-            <Input label="Password" />
+            <Input label="Email" width={sizeWidth}/>
+            <Input label="Password" width={sizeWidth} />
           </Double>
           <Double>
-            <Input label="Mobile Number" />
-            <Input label="Invite Code (Optional)" />
+            <Input label="Mobile Number" width={sizeWidth}/>
+            <Input label="Invite Code (Optional)" width={sizeWidth} />
           </Double>
           <Wraper>
             <p>By proceeding, I agree to Name’s <Href>Terms & Conditions</Href> and acknowledge
