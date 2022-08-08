@@ -15,4 +15,5 @@ export const InputBut = styled.input`
 export const Wrap = styled.div`
   display : flex;
   flex-direction : column;
+  margin-bottom : 10px;
 `

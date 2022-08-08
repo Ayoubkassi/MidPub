@@ -24,8 +24,8 @@ export const ButtonWrapper = styled.div`
 `
 
 export const AdvButton = styled.button`
-    background : black;
-    color : white;
+    color : ${({ color }) => (color === 'white' ? 'white' : 'black' )};
+    background :  ${({ color }) => (color === 'black' ? '#f2f2f2;' : 'black' )};
     font-weight : bold;
     width : 50%;
     outline : none;
@@ -34,12 +34,17 @@ export const AdvButton = styled.button`
     cursor : pointer;
     display : flex;
     align-items : center;
-    padding : 20px ;
+    padding : 0px 15px ;
+
+    &:focus{
+      outline : none;
+      border : none;
+    }
 `
 
 export const PubButton = styled.button`
-  color : black;
-  background : #f2f2f2;
+  color : ${({ color }) => (color === 'white' ? 'white' : 'black' )};
+  background :  ${({ color }) => (color === 'black' ? '#f2f2f2;' : 'black' )};
   font-weight : bold;
   width : 50%;
   outline : none;
@@ -48,18 +53,21 @@ export const PubButton = styled.button`
   cursor : pointer;
   display : flex;
   align-items : center;
-  padding : 20px;
-`
-export const BlackArrow = styled.div`
-  font-weight : 900;
-  font-size : 50px;
-  color : black;
-  margin-bottom : 30px;
+  padding : 0px 15px;
+
+  &:focus{
+    outline : none;
+    border : none;
+  }
 `
 
-export  const WhiteArrow = styled.div`
+
+export  const Arrow = styled.div`
   font-weight : 900;
   font-size : 50px;
-  color : white;
-  margin-bottom : 30px;
+  color : ${({ color }) => (color === 'white' ? 'white' : 'black' )};
+  margin-bottom : 10px;
+  position : relative;
+  top : -20px;
+  height : 20px;
 `

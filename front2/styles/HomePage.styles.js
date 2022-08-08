@@ -33,6 +33,7 @@ export const Lien = styled.a`
   &:first-of-type{
     margin-right: 60px;
   }
+
 `
 
 export const Button = styled.button`
@@ -43,6 +44,11 @@ export const Button = styled.button`
   outline : none;
   border : none;
   cursor : pointer;
+
+  &:focus{
+    outline : none;
+    border : none;
+  }
 `
 
 export const Title = styled.h1`
