@@ -17,6 +17,7 @@ export const Navbar = styled.div`
 
 export const Logo = styled.h2`
   font-wight : bold;
+  cursor : pointer;
 `
 
 export const Items = styled.div`
@@ -48,6 +49,11 @@ export const Button = styled.button`
   &:focus{
     outline : none;
     border : none;
+    color : white;
+  }
+
+  &:hover{
+    color : white;
   }
 `
 
@@ -56,4 +62,4 @@ export const Title = styled.h1`
   text-align : center;
   margin-top : 55px;
   margin-bottom : 22px;
-`;
+`

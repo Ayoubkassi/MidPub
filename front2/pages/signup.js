@@ -4,6 +4,8 @@ import { Main , Container , ButtonWrapper , AdvButton , PubButton ,Arrow } from 
 import { Navbar , Logo , Items , Lien , Button , Title} from '../styles/HomePage.styles';
 import Footer from '../components/Footer/Footer.component';
 import SignupForm from '../components/SignupForm/SignupForm.component';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Signup() {
 
@@ -20,6 +22,13 @@ export default function Signup() {
     setCol2("black");
   }
 
+  const router = useRouter()
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    router.push("login")
+  }
+
 
   return(
     <>
@@ -30,10 +39,10 @@ export default function Signup() {
       </Head>
       <Main>
         <Navbar>
-          <Logo>Name</Logo>
+          <Logo onClick={handleClick} >Name</Logo>
           <Items>
             <Lien href="/">EN</Lien>
-            <Button>Have an account?</Button>
+            <Button onClick={handleClick}>Have an account?</Button>
           </Items>
         </Navbar>
 

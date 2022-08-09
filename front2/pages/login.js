@@ -3,8 +3,19 @@ import Footer from '../components/Footer/Footer.component';
 import Head from 'next/head';
 import { Main , Container , Title } from '../styles/LoginPage.styles';
 import LoginForm from '../components/LoginForm/LoginForm.component';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 
 export default function Login() {
+
+  const router = useRouter()
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    router.push("/")
+  }
+
   return (
     <>
       <Head>
@@ -15,7 +26,7 @@ export default function Login() {
 
        <Main>
          <Navbar>
-           <Logo>Name</Logo>
+           <Logo onClick={handleClick}>Name</Logo>
          </Navbar>
          <Container>
             <Title>Log in</Title>

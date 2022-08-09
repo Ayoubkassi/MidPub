@@ -22,4 +22,4 @@ export const Title = styled.h1`
   margin-top : 55px;
   margin-bottom : 22px;
   font-weight : bold;
-`;
+`
