@@ -30,7 +30,7 @@ export const Lien = styled.a`
   color : black;
   font-weight : bold;
   text-decoration : none;
-  margin-right : 20px;
+  margin-right : 30px;
   &:first-of-type{
     margin-right: 60px;
   }
