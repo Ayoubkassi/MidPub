@@ -26,10 +26,10 @@ const Footer = () => {
         </Social>
         <Mobile>
           <MobileImage>
-            <Image src="/play-store.png" alt="play-store" width={160} height={35} />
+            <Image src="/google-play.svg" alt="play-store" width={160} height={35} />
           </MobileImage>
           <MobileImage>
-            <Image src="/app-store2.png" alt="app-store" width={160} height={35} />
+            <Image src="/appstore.svg" alt="app-store" width={160} height={35} />
           </MobileImage>
         </Mobile>
       </Media>

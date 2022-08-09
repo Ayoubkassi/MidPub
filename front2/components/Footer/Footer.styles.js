@@ -22,10 +22,11 @@ export const Mobile = styled.div`
 `
 
 export const MobileImage = styled.div`
-  border : 1px solid white;
+ // border : 1px solid white;
   margin-right : 20px;
   padding: 5px;
-`;
+  cursor : pointer;
+`
 
 export const Copyright = styled.p`
   color : #cac8bb;
@@ -40,9 +41,9 @@ export const Media = styled.div`
   &:first-of-type{
     margin-bottom : 50px;
   }
-  &:hover{
-    cursor:pointer;
-  }
+ // &:hover{
+  //  cursor:pointer;
+ // }
 `
 
 export const Social = styled.div`
@@ -65,6 +66,7 @@ export const ItemMedia = styled.div`
   display : flex;
   justify-content : center;
   align-items : center;
+  cursor : pointer;
 `
 
 
