@@ -1,6 +1,7 @@
 import { useState } from 'react'; 
 import { Flex , Element } from './Profile.styles';
 import PersonalDetails from '../PersonalDetails/PersonalDetails.component';
+import BillingDetails from '../BillingDetails/BillingDetails.component';
 
 const Profile = () => {
 
@@ -43,7 +44,8 @@ const Profile = () => {
 		        </Flex>
 
 		        {
-		        	color1 == "black" ? <PersonalDetails /> : <p></p>
+		        	color1 == "black" ? <PersonalDetails /> : 
+		        	( color2 == "black" ? <BillingDetails /> : <p></p> )
 		        }
 			</>
 		);
