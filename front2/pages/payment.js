@@ -37,9 +37,9 @@ const Payment = () => {
 	          <Logo onClick={handleClick}>Name</Logo>
 	          <Items>
 	            <Lien href="/">EN</Lien>
-	            <Lien href="/">Dashboard</Lien>
+	            <Lien href="/dashboard">Dashboard</Lien>
 	            <Lien href="/">Logout</Lien>
-	            <Lien href="/">Cart</Lien>
+	            <Lien href="/payment">Cart</Lien>
 	          </Items>
 	        </Navbar>
 	        <Title>Payment</Title>

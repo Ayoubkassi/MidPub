@@ -58,9 +58,9 @@ const Ads = () => {
           <Logo onClick={handleClick}>Name</Logo>
           <Items>
             <Lien href="/">EN</Lien>
-            <Lien href="/">Dashboard</Lien>
+            <Lien href="/dashboard">Dashboard</Lien>
             <Lien href="/">Logout</Lien>
-            <Lien href="/">Cart</Lien>
+            <Lien href="/payment">Cart</Lien>
           </Items>
         </Navbar>
         <Title><span style={{"fontSize":"45px","fontWeight":"bold","marginRight":"50px","cursor":"pointer"}} onClick={backWard} >&#60;</span>{data[currentNum]}
