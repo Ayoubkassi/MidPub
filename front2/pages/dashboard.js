@@ -7,7 +7,8 @@ import { Flex , Element  } from '../styles/DashboardPage.styles'
 import { BsVolumeUpFill , BsPersonFill , BsAlarm } from 'react-icons/bs'
 import { useState } from 'react';
 import ActiveCompaigns from '../components/ActiveCompaigns/ActiveCompaigns.component';
-
+import PurchaseHistory from '../components/PurchaseHistory/PurchaseHistory.component';
+import Profile from '../components/Profile/Profile.component';
 
 
 
@@ -78,8 +79,12 @@ const Dashboard = () => {
 	        	</Element >
 	        </Flex>
 
-	        <ActiveCompaigns />
-
+	        { 
+	        	color1 == "black" ? 
+	        	<ActiveCompaigns /> : (
+	        		color2 == "black" ? <PurchaseHistory /> : <Profile />
+	        		)
+	        }
 	       </Main>
 	       <Footer />
 
