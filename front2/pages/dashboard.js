@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { Flex , Element  } from '../styles/DashboardPage.styles'
 import { BsVolumeUpFill , BsPersonFill , BsAlarm } from 'react-icons/bs'
 import { useState } from 'react';
+import ActiveCompaigns from '../components/ActiveCompaigns/ActiveCompaigns.component';
 
 
 
@@ -76,6 +77,8 @@ const Dashboard = () => {
 	        		<p style={{"marginTop":"15px"}}>Profile</p>
 	        	</Element >
 	        </Flex>
+
+	        <ActiveCompaigns />
 
 	       </Main>
 	       <Footer />
