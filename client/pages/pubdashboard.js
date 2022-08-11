@@ -9,6 +9,7 @@ import { IoIosPricetag } from 'react-icons/io';
 import Sales from '../components/Sales/Sales.component';
 import Campaigns from '../components/Campaigns/Campaigns.component';
 import PriceList from '../components/PriceList/PriceList.component';
+import Payments from '../components/Payments/Payments.component';
 
 const PubDashboard = () => {
 
@@ -133,8 +134,10 @@ const PubDashboard = () => {
 
 	        	{
 	        		color1 == "black" ? <Sales /> : (
-	        				color2 == "black" ? <Campaigns /> : <PriceList />
+	        				color2 == "black" ? <Campaigns /> : (
+	        				color3 == "black" ? <PriceList /> : <Payments />
 	        			)
+	        				)
 	        	}
 	        	
 		       </Main>
