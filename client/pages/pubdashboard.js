@@ -93,9 +93,9 @@ const PubDashboard = () => {
 
 		      <Main>
 		        <Navbar>
-		          <Logo>Name</Logo>
+		          <Logo onClick={handleClick}>Name</Logo>
 		          <Items>
-		            <Button onClick={handleClick}>Publisher Panel</Button>
+		            <Button>Publisher Panel</Button>
 		          </Items>
 		        </Navbar>
 		        <Flexi style={{"marginTop":"60px"}}>
