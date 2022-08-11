@@ -49,7 +49,8 @@ export const Button = styled.button`
   outline : none;
   border : none;
   cursor : pointer;
-  margin-bottom : 100px;
+  margin-top : 50px;
+  margin-bottom : 40px;
 
   &:focus{
     outline : none;

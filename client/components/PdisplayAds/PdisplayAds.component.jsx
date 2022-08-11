@@ -109,6 +109,9 @@ const PdisplayAds = () => {
 				        </table>
 					</Element>
 				</Flex>
+				<ButContainer>
+			          <Button>Save</Button>
+			    </ButContainer>
 			</>
 		);
 }
