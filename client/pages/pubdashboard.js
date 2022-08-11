@@ -10,6 +10,7 @@ import Sales from '../components/Sales/Sales.component';
 import Campaigns from '../components/Campaigns/Campaigns.component';
 import PriceList from '../components/PriceList/PriceList.component';
 import Payments from '../components/Payments/Payments.component';
+import Company from '../components/Company/Company.component';
 
 const PubDashboard = () => {
 
@@ -135,7 +136,10 @@ const PubDashboard = () => {
 	        	{
 	        		color1 == "black" ? <Sales /> : (
 	        				color2 == "black" ? <Campaigns /> : (
-	        				color3 == "black" ? <PriceList /> : <Payments />
+	        				color3 == "black" ? <PriceList /> :( 
+	        				color4 == "black" ?	<Payments /> : 
+	        				<Company />
+	        					)
 	        			)
 	        				)
 	        	}
