@@ -8,6 +8,7 @@ import { FaBuilding  } from 'react-icons/fa';
 import { IoIosPricetag } from 'react-icons/io';
 import Sales from '../components/Sales/Sales.component';
 import Campaigns from '../components/Campaigns/Campaigns.component';
+import PriceList from '../components/PriceList/PriceList.component';
 
 const PubDashboard = () => {
 
@@ -131,7 +132,9 @@ const PubDashboard = () => {
 	        	</Flex>
 
 	        	{
-	        		color1 == "black" ? <Sales /> : <Campaigns />
+	        		color1 == "black" ? <Sales /> : (
+	        				color2 == "black" ? <Campaigns /> : <PriceList />
+	        			)
 	        	}
 	        	
 		       </Main>
