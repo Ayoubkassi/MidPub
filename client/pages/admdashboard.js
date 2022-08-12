@@ -1,19 +1,39 @@
-import { Main , Navbar , Items , Logo , Lien , Button , Square , Flexi , Element  , Stats , Item , Final , Left , Right , Calendar , Inside } from '../styles/PubDashboardPage.styles';
-import { Flex } from '../styles/AdmDashboardPage.styles';
-import Head from 'next/head';
-import Footer from '../components/Footer/Footer.component';
-import { useRouter } from 'next/router';
-import { BsVolumeUpFill , BsPersonFill , BsAlarm, BsReception4 , BsFillCreditCard2BackFill  } from 'react-icons/bs';
-import { useState } from 'react';
-import { FaBuilding  } from 'react-icons/fa';
+import {  Main      ,
+          Navbar    , 
+          Items     , 
+          Logo      , 
+          Lien      , 
+          Button    , 
+          Square    , 
+          Flexi     ,
+          Element   , 
+          Stats     , 
+          Item      , 
+          Final     , 
+          Left      , 
+          Right     , 
+          Calendar  , 
+          Inside    }                   from '../styles/PubDashboardPage.styles';
+import { Flex }                         from '../styles/AdmDashboardPage.styles';
+import Head                             from 'next/head';
+import Footer                           from '../components/Footer/Footer.component';
+import { useRouter }                    from 'next/router';
+import { BsVolumeUpFill ,
+         BsPersonFill   , 
+         BsAlarm        , 
+         BsReception4   , 
+         BsFillCreditCard2BackFill  }   from 'react-icons/bs';
+import { useState }                     from 'react';
+import { FaBuilding  }                  from 'react-icons/fa';
 import { IoIosPricetag , IoMdSettings } from 'react-icons/io';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { AiFillPlusCircle } from 'react-icons/ai';
-import { RiContactsBook2Fill } from 'react-icons/ri';
-import { HiUserGroup } from 'react-icons/hi';
-import Sales from '../components/Sales/Sales.component';
-import Services from '../components/Services/Services.component';
-import PayInOut from '../components/PayInOut/PayInOut.component';
+import { GiHamburgerMenu }              from 'react-icons/gi';
+import { AiFillPlusCircle }             from 'react-icons/ai';
+import { RiContactsBook2Fill }          from 'react-icons/ri';
+import { HiUserGroup }                  from 'react-icons/hi';
+import Sales                            from '../components/Sales/Sales.component';
+import Services                         from '../components/Services/Services.component';
+import PayInOut                         from '../components/PayInOut/PayInOut.component';
+import Vendors                          from '../components/Vendors/Vendors.component';
 
 const AdmDashboard = () => {
 
@@ -160,8 +180,10 @@ const AdmDashboard = () => {
 	        	{
 	        		color1 == "black" ? <Sales />    : ( 
 	        		color2 == "black" ?	<Services /> : (
-	        		color3 == "black" ? <PayInOut /> :	<p></p>
+	        		color3 == "black" ? <PayInOut /> : (	
+	        		color4 == "black" ? <Vendors  /> :<p></p>
 
+	        			)
 	        			)
 	        			)
 	        	}
