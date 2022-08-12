@@ -16,25 +16,25 @@ const AdvertorialTable = () => {
           </thead>
           <tbody>
             <tr style={{"height":"70px"}}>
-              <th scope="row"><Image width="80%" height="65%" src="https://seekvectorlogo.net/wp-content/uploads/2019/04/khaleej-times-vector-logo.png" /></th>
+              <th scope="row"><Image width="80%" height="65%" src="https://seekvectorlogo.net/wp-content/uploads/2019/04/khaleej-times-vector-logo.png" alt="img" /></th>
               <td>AED 10,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
               <td>AED 15,000<p style={{"color" : "rgb(131 133 133)"  , "fontSize":"14px"}}>per post</p></td>
               <td>AED 20,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
             </tr>
             <tr style={{"height":"70px"}}>
-              <th scope="row"><Image width="80%" height="65%" src="https://cdn.worldvectorlogo.com/logos/national-1.svg" /></th>
+              <th scope="row"><Image width="80%" height="65%" src="https://cdn.worldvectorlogo.com/logos/national-1.svg" alt="img" /></th>
               <td>AED 10,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
               <td>AED 15,000<p style={{"color" : "rgb(131 133 133)"  , "fontSize":"14px"}}>per post</p></td>
               <td>AED 20,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
             </tr>
             <tr style={{"height":"70px"}}>
-              <th scope="row"><Image width="80%" height="65%" src="https://www.anagog.com/wp-content/uploads/2020/11/Forbes-Logo-copy-300x167.png" /></th>
+              <th scope="row"><Image width="80%" height="65%" src="https://www.anagog.com/wp-content/uploads/2020/11/Forbes-Logo-copy-300x167.png" alt="img"/></th>
               <td>AED 10,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
               <td>AED 15,000<p style={{"color" : "rgb(131 133 133)"  , "fontSize":"14px"}}>per post</p></td>
               <td>AED 20,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
             </tr>
             <tr style={{"height":"70px"}}>
-              <th scope="row"><Image width="80%" height="50%" src="https://sadaalmawakea.com/content/uploads/2019/03/05/4fe4c0bc94.png" /></th>
+              <th scope="row"><Image width="80%" height="50%" src="https://sadaalmawakea.com/content/uploads/2019/03/05/4fe4c0bc94.png" alt="img" /></th>
               <td>AED 10,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
               <td>AED 15,000<p style={{"color" : "rgb(131 133 133)"  , "fontSize":"14px"}}>per post</p></td>
               <td>AED 20,000<p style={{"color" : "rgb(131 133 133)" , "fontSize":"14px"}}>per post</p></td>
