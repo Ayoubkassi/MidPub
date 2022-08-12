@@ -16,110 +16,80 @@ const Emails = () => {
 		          </thead>
 		          <tbody>
 		            <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>1</td>
-=======
 		              <td style={{"padding":"2px 0"}}>1</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Double opt-in email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>2</td>
-=======
 		              <td style={{"padding":"2px 0"}}>2</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Welcome email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>3</td>
-=======
 		              <td style={{"padding":"2px 0"}}>3</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Password reset email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>4</td>
-=======
 		              <td style={{"padding":"2px 0"}}>4</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Abandoned cart email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>5</td>
-=======
 		              <td style={{"padding":"2px 0"}}>5</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Order confirmation email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>6</td>
-=======
 		              <td style={{"padding":"2px 0"}}>6</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Delivery confirmation email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>7</td>
-=======
 		              <td style={{"padding":"2px 0"}}>7</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Invoice email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>8</td>
-=======
 		              <td style={{"padding":"2px 0"}}>8</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Legal update email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>9</td>
-=======
 		              <td style={{"padding":"2px 0"}}>9</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Order cancellation email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
 		              <td style={{"padding":"2px 0","textAlign":"center"}}>Edit</td>
 		             </tr>
 		             <tr style={{"height":"10px"}}>
-<<<<<<< HEAD
 		              <td style={{"padding":"2px 10px"}}>10</td>
-=======
 		              <td style={{"padding":"2px 0"}}>10</td>
->>>>>>> 8410de112010511b0470f8ca3f6c0306719030a1
 		              <td style={{"padding":"2px 0"}}>Refund confirmation email</td>
 		              <td style={{"padding":"2px 0"}}>input</td>
 		              <td style={{"padding":"2px 0"}}>Status</td>
