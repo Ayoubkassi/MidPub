@@ -11,6 +11,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiFillPlusCircle } from 'react-icons/ai';
 import { RiContactsBook2Fill } from 'react-icons/ri';
 import { HiUserGroup } from 'react-icons/hi';
+import Sales from '../components/Sales/Sales.component';
+import Services from '../components/Services/Services.component';
 
 const AdmDashboard = () => {
 
@@ -153,7 +155,12 @@ const AdmDashboard = () => {
 		        		<p style={{"marginTop":"15px"}}>Settings</p>
 		        	</Element >
 	        	</Flex>
+
+	        	{
+	        		color1 == "black" ? <Sales /> : <Services />
+	        	}
 		      </Main>
+		      <Footer />
 			</>
 		);
 }
