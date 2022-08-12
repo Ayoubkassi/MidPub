@@ -13,6 +13,7 @@ import { RiContactsBook2Fill } from 'react-icons/ri';
 import { HiUserGroup } from 'react-icons/hi';
 import Sales from '../components/Sales/Sales.component';
 import Services from '../components/Services/Services.component';
+import PayInOut from '../components/PayInOut/PayInOut.component';
 
 const AdmDashboard = () => {
 
@@ -157,7 +158,12 @@ const AdmDashboard = () => {
 	        	</Flex>
 
 	        	{
-	        		color1 == "black" ? <Sales /> : <Services />
+	        		color1 == "black" ? <Sales />    : ( 
+	        		color2 == "black" ?	<Services /> : (
+	        		color3 == "black" ? <PayInOut /> :	<p></p>
+
+	        			)
+	        			)
 	        	}
 		      </Main>
 		      <Footer />
