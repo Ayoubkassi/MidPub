@@ -34,6 +34,9 @@ import Sales                            from '../components/Sales/Sales.componen
 import Services                         from '../components/Services/Services.component';
 import PayInOut                         from '../components/PayInOut/PayInOut.component';
 import Vendors                          from '../components/Vendors/Vendors.component';
+import Profile                          from '../components/Profile/Profile.component';
+import Users                            from '../components/Users/Users.component'; 
+import Settings                         from '../components/Settings/Settings.component';
 
 const AdmDashboard = () => {
 
@@ -181,8 +184,12 @@ const AdmDashboard = () => {
 	        		color1 == "black" ? <Sales />    : ( 
 	        		color2 == "black" ?	<Services /> : (
 	        		color3 == "black" ? <PayInOut /> : (	
-	        		color4 == "black" ? <Vendors  /> :<p></p>
-
+	        		color4 == "black" ? <Vendors  /> : (
+	        		color5 == "black" ? <Profile />  : (
+	        		color6 == "black" ? <Users />    :
+	        							<Settings />
+	        			)
+	        			)
 	        			)
 	        			)
 	        			)
