@@ -1,0 +1,17 @@
+start back-end with /login : perform jwt using jsonwebtoken with NodeJs and also signup those 2 operations would be with Atlas MongoDB 
+whcich is cloud based solution for Mongo (NoSQL) database .
+
+pubdashboard and admdashboard will perform crud functionnalities for the buyer using expressJs 
+
+and payment route will have stripe and paypal sdk connected with nodeJs server 
+
+protected routes are : cart , payment , ads , dashboard , admdashboard , pubdashboard
+
+based on roule of a user will be redirected into his special dashboard 
+
+access token will be stored in the local storage , rredux-persist and we can add refresh token to have more security
+
+all the tasks must be async 
+
+and that's it
+
