@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Main = styled.div`
 
-  max-width : 50vw;
+  max-width : 70vw;
   position : relative;
   top : 80%;
   left : 50%;
@@ -49,4 +49,20 @@ export const Button = styled.button`
     outline : none;
     border : none;
   }
+`
+export const Label = styled.label`
+  color : #b5b3b3;
+  font-size : 15px;
+`
+
+export const InputBut = styled.input`
+  outline : none;
+  border : 1px solid #b5b3b3;
+  padding : 3px 6px;
+  width : 28vw;
+`
+export const Wrap = styled.div`
+  display : flex;
+  flex-direction : column;
+  margin-bottom : 10px;
 `

@@ -25,7 +25,7 @@ export const InputBut = styled.input`
   outline : none;
   border : 1px solid #b5b3b3;
   padding : 3px 6px;
-  width : ${({ width }) => `${width}px`};
+  width : ${({ width }) => ( width === 'big' ? '50vw' : width )};
 `
 export const Wrap = styled.div`
   display : flex;
