@@ -2,7 +2,7 @@ import  { Main , Double , Wrap , Label , InputBut , ButContainer , Button} from 
 import { useState } from 'react';
 
 const PersonalDetails = () => {
-	const sizeWidth = 300;
+	//const sizeWidth = 300;
 	const [fullName , setFullName] = useState('');
 	const [mobileNumber , setMobileNumber] = useState('');
 	const [gender , setGender] = useState('');
@@ -18,41 +18,41 @@ const PersonalDetails = () => {
 					<Double>
 			            <Wrap>
 				          <Label>Full Name</Label>
-				          <InputBut width={sizeWidth} type="text" value={fullName} onChange={(e) => setFullName(e.target.value) } />
+				          <InputBut type="text" value={fullName} onChange={(e) => setFullName(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Mobile Number</Label>
-				          <InputBut width={sizeWidth} type="text" value={mobileNumber} onChange={(e) =>  setMobileNumber(e.target.value) } />
+				          <InputBut  type="text" value={mobileNumber} onChange={(e) =>  setMobileNumber(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <Double>
 			            <Wrap>
 				          <Label>Gender</Label>
-				          <InputBut width={sizeWidth} type="text" value={gender} onChange={(e) => setGender(e.target.value) } />
+				          <InputBut  type="text" value={gender} onChange={(e) => setGender(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Date of Birth</Label>
-				          <InputBut width={sizeWidth} type="text" value={dateOfBirth} onChange={(e) =>  setDateOfBirth(e.target.value) } />
+				          <InputBut  type="text" value={dateOfBirth} onChange={(e) =>  setDateOfBirth(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <Double>
 			            <Wrap>
 				          <Label>Email</Label>
-				          <InputBut width={sizeWidth} type="text" value={email} onChange={(e) => setEmail(e.target.value) } />
+				          <InputBut  type="text" value={email} onChange={(e) => setEmail(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Designation</Label>
-				          <InputBut width={sizeWidth} type="text" value={designation} onChange={(e) =>  setDesignation(e.target.value) } />
+				          <InputBut type="text" value={designation} onChange={(e) =>  setDesignation(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <Double>
 			            <Wrap>
 				          <Label>City</Label>
-				          <InputBut width={sizeWidth} type="text" value={city} onChange={(e) => setCity(e.target.value) } />
+				          <InputBut  type="text" value={city} onChange={(e) => setCity(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Country</Label>
-				          <InputBut width={sizeWidth} type="text" value={country} onChange={(e) =>  setCountry(e.target.value) } />
+				          <InputBut type="text" value={country} onChange={(e) =>  setCountry(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <ButContainer>

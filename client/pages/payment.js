@@ -52,27 +52,27 @@ const Payment = () => {
 		      			</div>
 		      			 <Wrap>
 				          <Label>Cardholder Name</Label>
-				          <InputBut width={450} type="text" value={cardholderName} onChange={(e) => setCardholderName(e.target.value) } />
+				          <InputBut width='45vw' type="text" value={cardholderName} onChange={(e) => setCardholderName(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Card Number</Label>
-				          <InputBut width={450} type="text" value={cardNumber} onChange={(e) => setCardNumber(e.target.value) } />
+				          <InputBut width='45vw' type="text" value={cardNumber} onChange={(e) => setCardNumber(e.target.value) } />
 				        </Wrap>
 
-				       <div style={{"display":"flex","alignItems":"center", "justifyContent":"space-between", "width":"63%"}}>
+				       <div style={{"display":"flex","alignItems":"center", "justifyContent":"space-between", "width":"85%"}}>
 				        <Wrap>
 				          <Label>End Date</Label>
-				          <InputBut width={90} placeholder="mm" type="text" value={endMonth} onChange={(e) => setEndMonth(e.target.value) } />
+				          <InputBut width='10vw' placeholder="mm" type="text" value={endMonth} onChange={(e) => setEndMonth(e.target.value) } />
 				        </Wrap>
 
 				        <Wrap>
 				          <Label style={{"color":"transparent"}}>End</Label>
-				          <InputBut width={90} placeholder="yyyy" type="text" value={endYear} onChange={(e) => setEndYear(e.target.value) } />
+				          <InputBut width='10vw' placeholder="yyyy" type="text" value={endYear} onChange={(e) => setEndYear(e.target.value) } />
 				        </Wrap>
 
 				        <Wrap>
 				          <Label>CVV</Label>
-				          <InputBut width={180}  type="text" value={cvv} onChange={(e) => setCvv(e.target.value) } />
+				          <InputBut width='15vw'  type="text" value={cvv} onChange={(e) => setCvv(e.target.value) } />
 				        </Wrap>
 				        <p style={{"marginTop":"30px"}}>3 digits</p>
 				       </div>
@@ -105,7 +105,7 @@ const Payment = () => {
 		      			<p style={{"color":"#b5b3b3","marginTop":"10px", "fontSize":"13px"}}>Coupon</p>
 
 		      			<Flex>
-				          	<InputBut width={120} placeholder="Coupon Code" type="text" value={coupon} onChange={(e) => setCoupon(e.target.value) } />
+				          	<InputBut width='10vw' placeholder="Coupon Code" type="text" value={coupon} onChange={(e) => setCoupon(e.target.value) } />
 		      				<Button>Apply</Button>
 		      			</Flex>
 

@@ -17,28 +17,28 @@ const Security = () => {
 					<Double>
 			            <Wrap>
 				          <Label>Email Address</Label>
-				          <InputBut width={sizeWidth} type="text" value={email} onChange={(e) => setEmail(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={email} onChange={(e) => setEmail(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Add Email Address</Label>
-				          <InputBut width={sizeWidth} type="text" value={addEmail} onChange={(e) =>  setAddEmail(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={addEmail} onChange={(e) =>  setAddEmail(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			       <p><strong>Change Password</strong></p>
 
 			            <Wrap>
 				          <Label>Current Password</Label>
-				          <InputBut width={650} type="password" value={currentPassword} onChange={(e) => setCurrentPassword(e.target.value) } />
+				          <InputBut width='big' type="password" value={currentPassword} onChange={(e) => setCurrentPassword(e.target.value) } />
 				        </Wrap>
 	
 			        <Double>
 			            <Wrap>
 				          <Label>New Password</Label>
-				          <InputBut width={sizeWidth} type="text" value={newPassword} onChange={(e) => setNewPassword(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={newPassword} onChange={(e) => setNewPassword(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>New Password</Label>
-				          <InputBut width={sizeWidth} type="text" value={confirmPassword} onChange={(e) =>  setConfirmPassword(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={confirmPassword} onChange={(e) =>  setConfirmPassword(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <ButContainer>

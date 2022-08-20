@@ -16,25 +16,25 @@ const BillingDetails = () => {
 					<Double>
 			            <Wrap>
 				          <Label>Full Name</Label>
-				          <InputBut width={sizeWidth} type="text" value={fullName} onChange={(e) => setFullName(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={fullName} onChange={(e) => setFullName(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Mobile Number</Label>
-				          <InputBut width={sizeWidth} type="text" value={mobileNumber} onChange={(e) =>  setMobileNumber(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={mobileNumber} onChange={(e) =>  setMobileNumber(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			         <Wrap>
 				          <Label>Adress</Label>
-				          <InputBut width={650} type="text" value={adress} onChange={(e) =>  setAdress(e.target.value) } />
+				          <InputBut width='big' type="text" value={adress} onChange={(e) =>  setAdress(e.target.value) } />
 				     </Wrap>
 			        <Double>
 			            <Wrap>
 				          <Label>City</Label>
-				          <InputBut width={sizeWidth} type="text" value={city} onChange={(e) => setCity(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={city} onChange={(e) => setCity(e.target.value) } />
 				        </Wrap>
 				        <Wrap>
 				          <Label>Country</Label>
-				          <InputBut width={sizeWidth} type="text" value={country} onChange={(e) =>  setCountry(e.target.value) } />
+				          <InputBut width='24vw' type="text" value={country} onChange={(e) =>  setCountry(e.target.value) } />
 				        </Wrap>
 			        </Double>
 			        <ButContainer>

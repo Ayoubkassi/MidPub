@@ -1,4 +1,4 @@
-import { Double , Main , Wraper , Href , Info , Button , ButContainer } from './SignupForm.styles';
+import { Double , Main , Wraper , Wrap , Href , Info , Button , InputBut , Label,  ButContainer } from './SignupForm.styles';
 import Input from '../Input/Input.component';
 
 const SignupForm = () => {
@@ -7,16 +7,34 @@ const SignupForm = () => {
       <Main>
         <form>
           <Double>
-            <Input label="First Name" width={sizeWidth} />
-            <Input label="Last Name" width={sizeWidth} />
+            <Wrap>
+              <Label>First Name</Label>
+              <InputBut type="text" />
+            </Wrap>
+            <Wrap>
+              <Label>Last Name</Label>
+              <InputBut type="text" />
+            </Wrap>
           </Double>
           <Double>
-            <Input label="Email" width={sizeWidth}/>
-            <Input label="Password" width={sizeWidth} />
+          <Wrap>
+            <Label>Email</Label>
+            <InputBut type="text" />
+          </Wrap>
+          <Wrap>
+            <Label>Password</Label>
+            <InputBut type="password" />
+          </Wrap>
           </Double>
           <Double>
-            <Input label="Mobile Number" width={sizeWidth}/>
-            <Input label="Invite Code (Optional)" width={sizeWidth} />
+          <Wrap>
+            <Label>Mobile Number</Label>
+            <InputBut type="text" />
+          </Wrap>
+          <Wrap>
+            <Label>Invite Code (Optional)</Label>
+            <InputBut type="text" />
+          </Wrap>
           </Double>
           <Wraper>
             <p>By proceeding, I agree to Name’s <Href>Terms & Conditions</Href> and acknowledge

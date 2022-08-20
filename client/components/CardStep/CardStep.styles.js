@@ -10,7 +10,6 @@ export const Cards = styled.div`
 
 export const Card = styled.div`
   background-color : #f2f2f2;
-  height: 120px;
   color : black;
   display : flex;
   flex-direction : column;
